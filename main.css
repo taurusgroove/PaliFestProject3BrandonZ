@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-left: 13%;
+    margin-right: 12%;
+    margin-top: 5%;
+    line-break: auto;
+    font-family: Bodoni 72;
+    
+}
+h1{ 
+    border: 25px solid green;
+    background: green;
+    font-family: Bodoni 72;
+}
+h2 {
+    border: 15px solid red;
+    background: red;
+    color: black;
+
+}
+header{
+    display: flex;
+}
+
+a {
+ text-decoration: none;
+ color: white;
+ font-size: 25px;
+ padding: 30px;
+
+}
+
+nav {
+    height: 15%;
+    width: 50%;
+}
+
+.text {
+    width: 70%;
+    
+}
+.img {
+    width: 70%;
+}
+
+.grid-container {
+    display: grid;
+    gap: 50px;
+  }
